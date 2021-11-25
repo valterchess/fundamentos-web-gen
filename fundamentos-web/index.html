@@ -5,25 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu perfil</title>
+    <link rel="stylesheet" href="asserts/css/style.css">
 </head>
 <body>
-
     
-    <ul>
+    <ul class="menu">
         <!--<li><a href="https://valterchess.herokuapp.com/" target="_blank">Api</a></li>-->
             <li><a href="contato.html">Contato</a>
     </ul>
 
-
     <h1>Sobre o Valter</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, quidem cum culpa deleniti eos, facere ipsam dolorum voluptates repellat voluptatibus accusamus voluptate tempora, aperiam doloremque commodi debitis error nam eum.</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam rerum impedit laudantium laboriosam saepe accusantium vel eum nostrum corrupti ducimus. Repellat amet distinctio corporis nesciunt suscipit earum, dolore voluptates voluptatum.</p>
+    <div class="container">
+        <div class="p-30">
+            <p class="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, quidem cum culpa deleniti eos, facere ipsam dolorum voluptates repellat voluptatibus accusamus voluptate tempora, aperiam doloremque commodi debitis error nam eum.</p>
+            <p class="justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam rerum impedit laudantium laboriosam saepe accusantium vel eum nostrum corrupti ducimus. Repellat amet distinctio corporis nesciunt suscipit earum, dolore voluptates voluptatum.</p>
+        </div>
+        <div>
+            <img class="br-50 wh-300 p-30" width="460" height="315" src="asserts/img/midZoom.jpg" alt="">
+        </div>
+    </div>
+    
+    <h2 class="center">Música boa</h2>
 
-    <img src="asserts/img/midZoom.jpg" alt="">
-
-    <h2>Música boa</h2>
-
-    <iframe 
+    <div class="container mb-50">
+        <iframe 
         width="560"
         height="315" 
         src="https://www.youtube.com/embed/NTbNCezCJNM" 
@@ -32,5 +37,22 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen>
     </iframe>
+    </div>
+    
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://github.com/valterchess" target="_blank">
+                <img class="tm-social p-30" src="asserts/img/github.png" alt="logo github">
+            </a>
+            <a href="https://www.linkedin.com/in/valter-silva-5a44b1171/" target="_blank">
+                <img class="tm-social p-30" src="asserts/img/linkedin.png" alt="logo linkedin">
+            </a>
+            
+        </div>  
+        <p class="center">
+            Valter Silva &copy;
+        </p>
+    </footer>
 </body>
 </html>
